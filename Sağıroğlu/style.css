@@ -1,0 +1,532 @@
+/* general */
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora&family=Manrope:wght@200&family=Oxygen:wght@300&family=Titillium+Web:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --black: #1c1c1c;
+  --dark-grey: #363636;
+  --grey: #b5b5b5;
+  --secondary-white: #e8e8e8;
+  --white: #f8f8ff;
+  --red: rgb(141, 18, 18);
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+  margin-right: 2rem;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Lora", serif;
+  padding: 1rem;
+}
+
+header a {
+  color: var(--white);
+}
+
+p {
+  font-family: "Manrope", sans-serif;
+}
+
+h1 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+}
+
+/* utils */
+
+.btn {
+  font-family: "Oxygen", sans-serif;
+  margin-top: 1rem;
+  padding: 1rem 5rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.red-btn {
+  background-color: var(--red);
+  color: white;
+}
+
+.red-btn:hover {
+  opacity: 0.9;
+}
+
+.white-btn {
+  background-color: var(--secondary-white);
+  color: var(--black);
+  transition: 0.5s;
+}
+
+.white-btn:hover {
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.border-btn {
+  border: 2px solid var(--secondary-white);
+  color: var(--secondary-white);
+}
+
+.border-btn:hover {
+  border: 2px solid var(--grey);
+  color: var(--grey);
+}
+
+.block-btn {
+  display: block;
+  text-align: center;
+}
+
+.active {
+  border-bottom: 2px solid var(--white);
+}
+
+.passive:hover {
+  border-bottom: 2px solid var(--red);
+}
+
+/* style */
+
+header {
+  padding: 1rem;
+  color: var(--white);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+.logo{
+  display: flex;
+}
+.header-1 {
+  background-color: rgba(28, 28, 28, 0.7);
+  border-bottom: 2px solid var(--dark-grey);
+  top: 0;
+  width: 100vw;
+}
+
+header h1 {
+  font-size: 5rem;
+  font-family: "Dancing Script", cursive;
+}
+
+.white {
+  /* main-info's color */
+  color: var(--white);
+}
+
+.black {
+  /* card's color */
+  color: var(--black);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(images/tractors/bg.jpg);
+  background-attachment: fixed;
+}
+
+main .main-info {
+  margin-left: 2rem;
+}
+
+.main-info h1 {
+  margin-bottom: 2rem;
+}
+
+p {
+  margin: 2rem 0;
+}
+
+/* ads */
+
+.ads img {
+  width: 200px;
+}
+
+.ads {
+  padding: 2rem;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+  text-align: center;
+  margin: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  height: 420px;
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.all-models {
+  margin: 2rem;
+}
+
+.card .btn:hover {
+  transition: 0.3s;
+  background-color: var(--black);
+}
+
+/* news */
+
+.news {
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-areas:
+    "new-1 new-1"
+    "new-2 new-3";
+}
+
+.new {
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.new .btn {
+  width: 250px;
+}
+
+.new-1 {
+  grid-area: new-1;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/tractors/new-1.jpg);
+  /* background-attachment: fixed; */
+}
+
+.new-2 {
+  grid-area: new-2;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/tractors/new-2.jpg);
+}
+
+.new-3 {
+  grid-area: new-3;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/tractors/new-3.jpg);
+}
+
+.new-1-index {
+  grid-area: new-1;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/anasayfa/construction-new-1.jpg);
+  /* background-attachment: fixed; */
+}
+
+.new-2-index {
+  grid-area: new-2;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/anasayfa/traktör-new-2.jpg);
+}
+
+.new-3-index {
+  grid-area: new-3;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/anasayfa/building-new-3.jpg);
+}
+
+.new-1-buildings {
+  grid-area: new-1;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/buildings/building-new-1.jpg);
+
+  /* background-attachment: fixed; */
+}
+
+.new-2-buildings {
+  grid-area: new-2;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/buildings/building-new-2.jpg);
+}
+
+.new-3-buildings {
+  grid-area: new-3;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/buildings/building-new-3.jpg);
+}
+
+/* info--> first new's button and texts div */
+
+.info {
+  text-align: right;
+}
+
+.info h1 {
+  margin-bottom: 2rem;
+}
+
+/* footer */
+
+footer {
+  margin-top: 0.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--white);
+  background-color: var(--black);
+  font-size: 2rem;
+}
+
+footer .fab {
+  margin: 1.5rem;
+}
+
+footer img {
+  border-radius: 10%;
+  margin: 0 1.5rem;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.fa-youtube {
+  color: #c4302b;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: #00acee;
+}
+
+.fa-instagram {
+  background: linear-gradient(
+    45deg,
+    #f58529,
+    #dd2a7b,
+    #c13584,
+    #833ab4,
+    #5851db,
+    #405de6,
+    #0088cc
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
+
+footer img:hover {
+  opacity: 0.8;
+}
+
+footer img {
+  width: 35px;
+}
+
+/* brands */
+
+.brands {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  background-color: var(--secondary-white);
+  padding: 4rem;
+  max-height: 270px;
+}
+
+.brands img {
+  margin: 2rem;
+  width: 17%;
+  max-height: 190px;
+}
+
+/* tractor-pages */
+
+.ad-details {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  padding: 2rem;
+  margin-top: 1rem;
+  height: max-content;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.sidebar h3 {
+  font-weight: bold;
+}
+
+span {
+  font-weight: bold;
+}
+
+.gallery img {
+  transition: 1s;
+  border-radius: 4px;
+}
+
+.gallery img:hover {
+  z-index: 5;
+  transform: scale(2);
+}
+
+/* media quaries */
+
+@media (max-width: 1050px) {
+  .ads {
+    padding: 0 10rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .header-1 {
+    flex-direction: column;
+  }
+
+  .news {
+    grid-template-areas:
+      "new-1"
+      "new-2"
+      "new-3";
+  }
+
+  .ad-details {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .gallery img:hover {
+    transform: scale(1);
+  }
+
+  .sidebar {
+    position: static;
+  }
+}
+
+/* phone */
+
+@media (max-width: 720px) {
+  .ads {
+    padding: 0 5rem;
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    height: 50vh;
+  }
+
+  header h1 {
+    font-size: 4rem;
+  }
+
+  .header-1 {
+    font-size: 1.5rem;
+  }
+
+  /* .new-1 {
+    background-attachment: unset;
+  } */
+
+  .info {
+    text-align: left;
+  }
+
+  html {
+    font-size: 0.5rem;
+  }
+
+  .social-media img {
+    width: 28px;
+  }
+}
+
+/* index */
+
+/* .photo-gallery {
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rem;
+}
+
+.photo-gallery img {
+  width: 24%;
+} */
