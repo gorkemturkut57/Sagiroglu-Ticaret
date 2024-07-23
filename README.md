@@ -1,4 +1,4 @@
-[Visit the Website]([https://dayanikli-gelecek.vercel.app/](https://ozsagirticaret.netlify.app/))
+[Visit the Website]([https://ozsagirticaret.netlify.app/]
 ## Table of Contents
 
 - [Overview](#overview)
