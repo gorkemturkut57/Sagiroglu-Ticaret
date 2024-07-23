@@ -2,7 +2,7 @@
 
 Welcome to **Özsağır Ticaret**, your go-to platform for all your real estate and auto trading needs. Our website connects buyers, sellers, and renters, providing an intuitive and comprehensive experience for discovering and managing properties and vehicles.
 
-![Özsağır Ticaret Logo](https://ozsagirticaret.netlify.app/static/logo.png)
+- **Website**: [https://ozsagirticaret.netlify.app/](https://ozsagirticaret.netlify.app/)
 
 ## Table of Contents
 
@@ -119,8 +119,6 @@ For questions, feedback, or support, please contact us:
 
 - **Email**: gorkemturkut@hotmail.com
 - **GitHub**: [Özsağır Ticaret Repository](https://github.com/gorkemturkut57/ozsagir-ticaret)
-- **Website**: [https://ozsagirticaret.netlify.app/](https://ozsagirticaret.netlify.app/)
-
 ---
 
 Thank you for visiting **Özsağır Ticaret**. We hope you have a great experience!
