@@ -1,4 +1,9 @@
-[Visit the Website]([https://ozsagirticaret.netlify.app/]
+# Özsağır Ticaret: Real Estate and Auto Trading Website
+
+Welcome to **Özsağır Ticaret**, your go-to platform for all your real estate and auto trading needs. Our website connects buyers, sellers, and renters, providing an intuitive and comprehensive experience for discovering and managing properties and vehicles.
+
+![Özsağır Ticaret Logo](https://ozsagirticaret.netlify.app/static/logo.png)
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -11,44 +16,41 @@
 
 ## Overview
 
-Sagiroglu Ticaret Website offers an integrated platform that caters to the diverse needs of real estate and auto markets. Our goal is to streamline the process of finding the perfect home, office space, or vehicle by providing an extensive range of listings and advanced search functionalities. With user-friendly navigation and detailed listing information, our platform aims to be the preferred choice for anyone looking to buy, sell, or rent properties and vehicles.
+**Özsağır Ticaret** offers a user-friendly platform for exploring and managing real estate and vehicle transactions. Designed with ease of use in mind, our website helps users navigate through various listings, access detailed information, and connect with sellers or agents efficiently.
 
 ## Features
 
 ### Real Estate
 
-- **Property Listings**: Explore a wide range of properties for sale or rent, including apartments, houses, commercial spaces, and land.
-- **Advanced Search**: Filter properties by location, price range, size, amenities, and more.
-- **Virtual Tours**: Experience properties with immersive virtual tours and high-quality images.
-- **Agent Contact**: Connect directly with agents or property owners for inquiries and negotiations.
-- **Saved Searches**: Save your favorite listings and searches for quick access.
+- **Property Listings**: Browse a diverse range of properties for sale or rent, including residential, commercial, and land options.
+- **Advanced Search**: Filter listings by location, price range, property type, and more.
+- **Property Details**: View comprehensive details, including photos, descriptions, and virtual tours where available.
+- **Agent Contact**: Reach out to agents or property owners directly through our secure contact system.
 
 ### Auto Trading
 
-- **Vehicle Listings**: Browse listings for new and used cars, motorcycles, and commercial vehicles.
-- **Filter and Compare**: Use advanced filters to find vehicles by make, model, year, price, and features.
-- **Dealer Network**: Access a network of trusted dealers and sellers.
-- **Vehicle History**: View detailed vehicle history reports and maintenance records.
-- **Price Alerts**: Set alerts for price drops and new listings that match your criteria.
+- **Vehicle Listings**: Explore listings for new and used vehicles, including cars, motorcycles, and commercial vehicles.
+- **Search and Filter**: Use advanced search options to find vehicles by make, model, year, price, and other criteria.
+- **Vehicle Information**: Access detailed vehicle descriptions, photos, and history reports.
+- **Dealer Network**: Connect with trusted dealers and sellers in your area.
 
 ### User Account
 
-- **User Registration**: Create an account to list properties or vehicles, manage your listings, and track inquiries.
-- **Dashboard**: A personalized dashboard to manage saved listings, contacts, and notifications.
-- **Secure Transactions**: Ensure secure communication and transactions with our encrypted messaging system.
+- **Registration and Login**: Create an account to manage listings, track inquiries, and save your searches.
+- **Dashboard**: Access a personalized dashboard for managing your listings and user preferences.
+- **Secure Communication**: Communicate securely with agents or sellers through our platform.
 
 ## Technologies Used
 
-- **Front-End**: React.js, HTML5, CSS3, Bootstrap
+- **Front-End**: HTML, CSS, JavaScript, React.js
 - **Back-End**: Node.js, Express.js
 - **Database**: MongoDB
 - **APIs**: Google Maps API for location services
-- **Payment Gateway**: Stripe for secure transactions
-- **Hosting**: Vercel
+- **Hosting**: Netlify
 
 ## Installation
 
-To run the project locally, follow the instructions below:
+To run the project locally, follow these steps:
 
 ### Prerequisites
 
@@ -59,8 +61,8 @@ To run the project locally, follow the instructions below:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/real-estate-auto-trading.git
-cd real-estate-auto-trading
+git clone https://github.com/yourusername/ozsagir-ticaret.git
+cd ozsagir-ticaret
 ```
 
 ### Install Dependencies
@@ -71,12 +73,11 @@ npm install
 
 ### Environment Variables
 
-Create a `.env` file in the root directory and add the following variables:
+Create a `.env` file in the root directory and add the following:
 
 ```plaintext
 MONGODB_URI=your_mongodb_connection_string
 GOOGLE_MAPS_API_KEY=your_google_maps_api_key
-STRIPE_SECRET_KEY=your_stripe_secret_key
 PORT=3000
 ```
 
@@ -90,26 +91,38 @@ Visit the application at `http://localhost:3000`.
 
 ## Usage
 
-1. **Homepage**: Start your search for properties or vehicles directly from the homepage.
-2. **Property Section**: Browse and search for properties using various filters and view detailed listings.
-3. **Auto Section**: Explore vehicle listings, compare models, and contact sellers or dealers.
-4. **User Dashboard**: Manage your listings, inquiries, and saved searches from your personalized dashboard.
-5. **Contact**: Use the contact form to reach out for support, inquiries, or feedback.
+1. **Homepage**: Start browsing for properties or vehicles directly from the homepage.
+2. **Real Estate Section**: Explore and search for real estate listings, view detailed property information.
+3. **Auto Trading Section**: Search for vehicles, compare listings, and view detailed information.
+4. **User Dashboard**: Manage your account, saved searches, and listings from your dashboard.
+5. **Contact**: Use the contact form for support or inquiries.
 
 ## Contributing
 
-We welcome contributions to improve the Real Estate and Auto Trading Website. To contribute:
+We welcome contributions to enhance the Özsağır Ticaret project. To contribute:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bugfix (`git checkout -b feature-name`).
 3. Commit your changes (`git commit -m 'Add a new feature'`).
 4. Push to the branch (`git push origin feature-name`).
-5. Open a pull request and provide a detailed description of your changes.
+5. Open a pull request and describe your changes.
 
 Please follow our [Code of Conduct](CODE_OF_CONDUCT.md) and adhere to the [Contributing Guidelines](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
 For questions, feedback, or support, please contact us:
 
 - **Email**: gorkemturkut@hotmail.com
+- **GitHub**: [Özsağır Ticaret Repository](https://github.com/gorkemturkut57/ozsagir-ticaret)
+- **Website**: [https://ozsagirticaret.netlify.app/](https://ozsagirticaret.netlify.app/)
+
+---
+
+Thank you for visiting **Özsağır Ticaret**. We hope you have a great experience!
+
+---
