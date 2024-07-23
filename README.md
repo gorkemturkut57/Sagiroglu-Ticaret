@@ -109,10 +109,6 @@ We welcome contributions to enhance the Özsağır Ticaret project. To contribut
 
 Please follow our [Code of Conduct](CODE_OF_CONDUCT.md) and adhere to the [Contributing Guidelines](CONTRIBUTING.md).
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
 For questions, feedback, or support, please contact us:
