@@ -1,7 +1,5 @@
 # Özsağır Ticaret: Real Estate and Auto Trading Website
 
-Welcome to **Özsağır Ticaret**, your go-to platform for all your real estate and auto trading needs. Our website connects buyers, sellers, and renters, providing an intuitive and comprehensive experience for discovering and managing properties and vehicles.
-
 - **Website**: [https://ozsagirticaret.netlify.app/](https://ozsagirticaret.netlify.app/)
 
 ## Table of Contents
